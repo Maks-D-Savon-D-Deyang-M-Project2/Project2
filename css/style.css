@@ -1,5 +1,5 @@
 /* Reset and Normalize */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* Global Styles */
 body {
-  font-family: "Libre Bodoni", "Garamond", "Times New Roman", serif;
+  font-family: "Libre Bodoni", "Garamond", "Times New Roman", "Times";
 }
 
 .navigation, #citybar {
@@ -110,6 +110,22 @@ img {
   width: auto;
 }
 
+.loginimg {
+  flex: 33.33%;
+  padding: 5px
+}
+
+.topimgcontainer {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 5%;
+}
+
+.topimgcontainer img {
+  max-width: 70%;
+  max-height: 70%;
+ }
+
 #formcontainer, #formcontainer2 {
   background: rgba(223, 215, 230, .4);
   border: none;
@@ -159,8 +175,8 @@ img {
 }
 
 #spacer, #spacer2 {
-  margin-top: 10%;
-  margin-bottom: 10%;  
+  margin-top: 5%;
+  margin-bottom: 5%;  
 }
 
 #bottombar {
@@ -221,7 +237,7 @@ img {
     margin-top: 1%;
   }
   
-   #formcontainer2 {
+  #formcontainer2 {
     left: 14%;	  
     width: 70%;
     margin-top: 1%;
@@ -229,16 +245,37 @@ img {
 }
 @media screen and (min-width: 1600px) {
 
-#formcontainer {
-  left: 24.5%;	  
-  width: 50%;
-  margin-top: 1%;
+  #formcontainer {
+    left: 32%;	  
+    width: 35%;
+    margin-top: 1%;
   }
   
-#formcontainer2 {
-  left: 24.5%;	  
-  width: 50%;
-  margin-top: 1%;
+  #formcontainer2 {
+    left: 32%;	  
+    width: 35%;
+    margin-top: 1%;
+  }
+  
+  #button button {
+    width: 20%;
+  }
+  
+  #button2 button {
+    width: 20%;
+  }
+  
+  #logintop {
+    width: 50%;
+    height: 20%;
+    position: relative;
+    left: 24.5%;
+    display: flex;
+  }
+  
+  .topimgcontainer img {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 

@@ -34,13 +34,27 @@
   </div>
     <input id="searchbar" required name="text" type="text" placeholder="search">
     <div id="righttop">
-      <a href="#">Post</a>
-      <a href="#">Account</a>
+      <a href="jobs.html">Post</a>
+      <a href="login.html">Account</a>
     </div>
   </div>
   <div id="mainbody">  
   <form id="login" method="post" autocomplete="on" action="#null">
-    <h1 id="f1head">Login</h1>
+    <div id="logintop">
+      <div class="topimgcontainer">
+        <img src="images/sale.jpg" alt="for sale">
+		<p>Buy or sell items.</p>
+      </div>
+      <div class="topimgcontainer">
+        <img src="images/job.jpg" alt="help wanted">
+		<p>Find The perfect job.</p>
+      </div>
+      <div class="topimgcontainer">
+        <img src="images/house.jpg" alt="house">
+		<p>Find a place to call home.</p>
+      </div>
+	</div>
+	<h1 id="f1head">Welcome Back!</h1>
     <fieldset id="formcontainer">
       <div id="emailcontainer">
         <label>Email Address: <input class="forminput" id="emaill" required name="email" type="email" placeholder="jsmith@gmail.com" onchange="changeEmailLabelColor();">
@@ -51,27 +65,27 @@
         </label>
       </div>
       <div id="button">
-        <button type="submit" onclick="login();">Login</button>
+        <button type="submit" onclick="login();">Browse Now</button>
       </div>
     </fieldset>
   </form>
   <div id="spacer"></div>
   <form id="signup" method="post" autocomplete="on" action="#null">
-    <h1 id="f2head">Don't Have an account? What are you waiting for?! ITS FREE!</h1>
+    <h1 id="f2head">First time on Craigslist? Make an Account and join the internets largest private marketplace!</h1>
 	<fieldset id="formcontainer2">
 	  <div id="emailcontainer2">
 	    <label>Email Address: <input class="forminput" id="emaill2" required name="email" type="email" placeholder="jsmith@gmail.com" onchange="changeEmailLabelColor2();">
 	    </label>
       </div>
 	  <div id="button2">
-        <button type="submit" onclick="signup();">Shop Now</button>
+        <button type="submit" onclick="signup();">Join Today</button>
       </div>
     </fieldset>
   </form>
   </div>
   <div id="spacer2"></div>
   <div id="bottombar">
-    <p>Legal Information</p>
+    <p>&copy; 2024 Craigslist | <a href="#">Help</a> <a href="#">Safety</a> <a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">About</p>
   </div>
 </body>
 </html>

@@ -20,7 +20,7 @@ body {
 .navigation a, #citybar button {
   float: left;
   display: block;
-  color: #e90606;
+  color: #181616;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -72,7 +72,7 @@ body {
 
 .navigation a:hover, .dropmenu:hover .dropbutton {
   background-color: #916CB2;
-  color: rgb(252, 252, 252);
+  color: rgb(0, 0, 0);
 }
 
 .droplist a:hover {

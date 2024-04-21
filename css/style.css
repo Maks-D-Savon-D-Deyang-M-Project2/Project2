@@ -200,12 +200,12 @@ img {
 
 #button button:hover {
   background-color: #551A8B;
-  color: white;
+  color: rgb(221, 6, 6);
 }
 
 #button2 button:hover {
   background-color: #551A8B;
-  color: white;
+  color: rgb(235, 13, 13);
 }
 
 .calendar-header {

@@ -72,7 +72,7 @@ body {
 
 .navigation a:hover, .dropmenu:hover .dropbutton {
   background-color: #916CB2;
-  color: rgb(241, 15, 15);
+  color: rgb(252, 252, 252);
 }
 
 .droplist a:hover {
@@ -200,12 +200,12 @@ img {
 
 #button button:hover {
   background-color: #551A8B;
-  color: rgb(221, 6, 6);
+  color: rgb(31, 221, 6);
 }
 
 #button2 button:hover {
   background-color: #551A8B;
-  color: rgb(235, 13, 13);
+  color: rgb(255, 255, 255);
 }
 
 .calendar-header {

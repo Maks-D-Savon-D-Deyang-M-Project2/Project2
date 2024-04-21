@@ -233,3 +233,11 @@ img {
   }
 }
 
+/* City buttons */
+.citybuttons {
+    text-align: center; /* Align buttons to the center */
+}
+
+.citybuttons button {
+    margin: 0 5px; /* Add some space between buttons */
+}

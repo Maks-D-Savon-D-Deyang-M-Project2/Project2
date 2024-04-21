@@ -72,7 +72,7 @@ body {
 
 .navigation a:hover, .dropmenu:hover .dropbutton {
   background-color: #916CB2;
-  color: white;
+  color: rgb(241, 15, 15);
 }
 
 .droplist a:hover {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Login</title>
@@ -9,14 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" media="screen" href="css/style.css">
-</head>
-<body>
-  <div id="companylogo">
-    <img id="logo" src="images/logo2.jpg" alt="Craigslist logo">
-  </div>
-  <div class="navigation" id="bar">
-    <div class="dropmenu">
-      <button class="dropbutton">Menu<i class="fa fa-caret-down"></i></button>
+  </head>
+  <body>
+    <div id="companylogo">
+      <img id="logo" src="images/logo2.jpg" alt="Craigslist logo">
+    </div>
+    <div class="navigation" id="bar">
+      <div class="dropmenu">
+        <button class="dropbutton">Menu <i class="fa fa-caret-down"></i>
+        </button>
         <div class="droplist">
           <a href="#">Home</a>
           <a href="#">Community</a>
@@ -29,17 +30,16 @@
           <a href="#">Resumes</a>
           <a href="login.html">Login</a>
         </div>
-    </div>
+      </div>
       <input id="searchbar" required name="text" type="text" placeholder="search">
       <div id="righttop">
         <a href="jobs.html">Post</a>
         <a href="login.html">Account</a>
       </div>
-  </div>
-    <div id="mainbody"> 
+    </div>
+    <div id="mainbody">
       <p>Welcome to Craigslist!</p>
-      <p>Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services,  
-	  community, gigs, résumés, and discussion forums.</p>
+      <p>Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.</p>
       <p>Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.</p>
     </div>
     <div id="citybar">
@@ -51,50 +51,56 @@
         <button onclick="changeCity('nwi')">NWI</button>
         <button onclick="changeCity('nwc')">NWC</button>
       </div>
-        <div id="cityname"></div> <!-- This will display the city name -->
-      </div>
-      <div id="bottombar">
-        <p>&copy; 2024 Craigslist | <a href="#">Help</a> <a href="#">Safety</a> <a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">About</a>
-        <a href="#">App</a> <a href="#">Sitemap</a></p>
-    </div> 
+      <div id="cityname"></div>
+      <!-- This will display the city name -->
+    </div>
+    <div id="bottombar">
+      <p>&copy; 2024 Craigslist | <a href="#">Help</a>
+        <a href="#">Safety</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">About</a>
+        <a href="#">App</a>
+        <a href="#">Sitemap</a>
+      </p>
+    </div>
     <!-- Event Calendar -->
     <div class="event-calendar">
       <div class="calendar-header">
         <h2>April 2024</h2>
       </div>
-        <div class="calendar-body">
-          <div class="calendar-row">
-            <div class="calendar-day">Sun</div>
-            <div class="calendar-day">Mon</div>
-            <div class="calendar-day">Tue</div>
-            <div class="calendar-day">Wed</div>
-            <div class="calendar-day">Thu</div>
-            <div class="calendar-day">Fri</div>
-            <div class="calendar-day">Sat</div>
-          </div>
-            <!-- Example content, replace with actual calendar content -->
-          <div class="calendar-row">
-            <div class="calendar-day">-</div>
-              <div class="calendar-day">-</div>
-              <div class="calendar-day">1</div>
-              <div class="calendar-day">2</div>
-              <div class="calendar-day">3</div>
-              <div class="calendar-day">4</div>
-              <div class="calendar-day">5</div>
-          </div>
-            <div class="calendar-row">
-              <div class="calendar-day">6</div>
-              <div class="calendar-day">7</div>
-              <div class="calendar-day">8</div>
-              <div class="calendar-day">9</div>
-              <div class="calendar-day">10</div>
-              <div class="calendar-day">11</div>
-              <div class="calendar-day">12</div>
-            </div>
-            <!-- Add more rows as needed -->
+      <div class="calendar-body">
+        <div class="calendar-row">
+          <div class="calendar-day">Sun</div>
+          <div class="calendar-day">Mon</div>
+          <div class="calendar-day">Tue</div>
+          <div class="calendar-day">Wed</div>
+          <div class="calendar-day">Thu</div>
+          <div class="calendar-day">Fri</div>
+          <div class="calendar-day">Sat</div>
         </div>
+        <!-- Example content, replace with actual calendar content -->
+        <div class="calendar-row">
+          <div class="calendar-day">-</div>
+          <div class="calendar-day">-</div>
+          <div class="calendar-day">1</div>
+          <div class="calendar-day">2</div>
+          <div class="calendar-day">3</div>
+          <div class="calendar-day">4</div>
+          <div class="calendar-day">5</div>
+        </div>
+        <div class="calendar-row">
+          <div class="calendar-day">6</div>
+          <div class="calendar-day">7</div>
+          <div class="calendar-day">8</div>
+          <div class="calendar-day">9</div>
+          <div class="calendar-day">10</div>
+          <div class="calendar-day">11</div>
+          <div class="calendar-day">12</div>
+        </div>
+        <!-- Add more rows as needed -->
+      </div>
     </div>
-<script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>
-

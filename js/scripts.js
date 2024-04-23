@@ -36,7 +36,9 @@ function changeCity(cityCode) {
 const languageStrings = {
     'en': {
         'Welcome': 'Welcome to Craigslist!',
-        'Browse': 'Browse our listings and find what you\'re looking for.'
+        'Browse': 'Browse our listings and find what you\'re looking for.',
+        'Craigslist': 'Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.',
+        'Founded': 'Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.'
     },
     'es': {
         'Welcome': '¡Bienvenido a Craigslist!',

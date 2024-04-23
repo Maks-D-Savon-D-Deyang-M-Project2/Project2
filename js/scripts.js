@@ -45,4 +45,10 @@ const languageStrings = {
 }
 function changeLanguage(language) {
     const elements = document.queryselectorAll('[data-translate]');
+    elements.forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if(languageStrings[language] && languageStrings[language][key]) {
+            element.textContent = languageStrings[language][key];
+        }
+    });
 }

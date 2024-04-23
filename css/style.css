@@ -229,6 +229,15 @@ img {
   border: 1px solid #ccc;
 }
 
+[data-lang="es"] .navigation a,
+[data-lang="es"] #citybar button 
+[data-lang="es"] .event-calendar 
+
+/* Dynamic styling */
+[data-translate] {
+    display: none; /* Hide elements with data-translate attribute by default */
+}
+
 @media screen and (min-width: 768px) {
   
   #formcontainer {

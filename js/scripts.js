@@ -42,7 +42,9 @@ const languageStrings = {
     },
     'es': {
         'Welcome': '¡Bienvenido a Craigslist!',
-        'browse': 'Explora nuestros anuncios y encuentra lo que buscas.'
+        'browse': 'Explora nuestros anuncios y encuentra lo que buscas.',
+        'Craigslist': 'Craigslist es un sitio web de anuncios clasificados con secciones dedicadas a empleos, vivienda, contactos personales, venta, artículos buscados, servicios, comunidad, conciertos, currículums y foros de discusión.',
+        'Fundada': 'Fundada en 1995 por Craig Newmark, Craigslist ha crecido hasta convertirse en uno de los sitios web más populares para anuncios clasificados, con millones de usuarios publicando y explorando anuncios todos los días.'
     }
 }
 function changeLanguage(language) {

@@ -33,3 +33,16 @@ function changeCity(cityCode) {
             break;
     }
 }
+const languageStrings = {
+    'en': {
+        'Welcome': 'Welcome to Craigslist!',
+        'Browse': 'Browse our listings and find what you\'re looking for.'
+    },
+    'es': {
+        'Welcome': '¡Bienvenido a Craigslist!',
+        'browse': 'Explora nuestros anuncios y encuentra lo que buscas.'
+    }
+}
+function changeLanguage(language) {
+    const elements = document.queryselectorAll('[data-translate]');
+}

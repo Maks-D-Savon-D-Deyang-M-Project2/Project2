@@ -237,6 +237,16 @@ img {
 [data-translate] {
     display: none; /* Hide elements with data-translate attribute by default */
 }
+/* Show elements with data-translate when the language changes */
+[lang="en"] [data-translate="en"],
+[lang="es"] [data-translate="es"] {
+    display: block;
+}
+/* Hide elements with data-translate when the language changes */
+[lang="en"] [data-translate="es"],
+[lang="es"] [data-translate="en"] {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
   

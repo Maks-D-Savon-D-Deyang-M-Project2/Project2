@@ -307,9 +307,9 @@ img {
 
 /* Dropdown Language */
 .dropdown {
-  float: right;
+  float: none;
   display: inline-block;
-  margin-right: 0 0 10px;
+  margin-left: 0 0 10px;
 }
 
 .dropdown-content {
@@ -325,7 +325,7 @@ img {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: right;
+  text-align: center;
 }
 
 .dropdown-content a:hover {

@@ -249,7 +249,15 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  
+  .dropdown {
+    float: none;
+    display: inline-block; 
+    margin: 0 0 10px; 
+  }
+  .dropdown-content {
+    position: relative; 
+    min-width: 100%; 
+  }
   #formcontainer {
     left: 14%;	  
     width: 70%;
@@ -262,7 +270,7 @@ img {
     margin-top: 1%;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1024px) {
 
   #formcontainer {
     left: 32%;	  

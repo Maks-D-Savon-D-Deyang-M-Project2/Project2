@@ -103,3 +103,12 @@ function showDescription() {
   function hideDescription() {
     document.getElementById('descriptionBox').style.display = 'none';
   }
+
+  document.getElementById('howItWorksButton').addEventListener('click', function() {
+    const descriptionBox = document.getElementById('descriptionBox');
+    if (descriptionBox.style.display === 'none' || descriptionBox.style.display === '') {
+        showDescription();
+    } else {
+        hideDescription();
+    }
+});

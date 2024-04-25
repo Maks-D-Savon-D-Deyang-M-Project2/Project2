@@ -55,7 +55,7 @@
         <button onclick="changeCity('NWI')">NWI</button>
         <button onclick="changeCity('NWC')">NWC</button>
       </div>
-      <button id="howItWorksButton" onmouseover="showDescription();" onmouseout="hideDescription();">How it works</button>
+      <button id="howItWorksButton" onclick="showDescription();" onkeydown="showDescription();" onkeyup="hideDescription();" onkeypress="hideDescription();" onfocus="showDescription();" onblur="hideDescription();" tabindex="0">How it works</button>
     <div id="descriptionBox" class="description-box">Craigslist serves as a platform for classified ads and community notices, allowing users to buy, sell, and trade various goods and services, as well as find job opportunities and housing. Its aim is to provide a free and accessible way for individuals to connect with others in their local communities, facilitating transactions and interactions between buyers and sellers.</div>
         <div id="cityname"></div> <!-- This will display the city name -->
     </div>
@@ -63,8 +63,8 @@
       <div class="dropdown">
         <button class="dropbtn">Language</button>
         <div class="dropdown-content">
-            <a href="#" onclick="changeLanguage('en')">English</a>
-            <a href="#" onclick="changeLanguage('es')">Spanish</a>
+          <button onclick="changeLanguage('en')">English</button>
+          <button onclick="changeLanguage('es')">Spanish</button>
         </div>
       </div>
       <div id="bottombar">

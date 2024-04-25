@@ -19,55 +19,58 @@
         <button class="dropbutton">Menu <i class="fa fa-caret-down"></i>
         </button>
         <div class="droplist">
-          <a href="#">Home</a>
-          <a href="#">Community</a>
-          <a href="#">Housing</a>
-          <a href="jobs.html">Jobs</a>
-          <a href="#">Services</a>
-          <a href="#">For Sale</a>
-          <a href="#">Forums</a>
-          <a href="#">Gigs</a>
-          <a href="#">Resumes</a>
-          <a href="login.html">Login</a>
+          <a href="#" data-translate="Home">Home</a>
+          <a href="#" data-translate="Community">Community</a>
+          <a href="#" data-translate="Housing">Housing</a>
+          <a href="jobs.html" data-translate="Jobs">Jobs</a>
+          <a href="#" data-translate="Services">Services</a>
+          <a href="#" data-translate="For Sale">For Sale</a>
+          <a href="#" data-translate="Forums">Forums</a>
+          <a href="#" data-translate="Gigs">Gigs</a>
+          <a href="#" data-translate="Resumes">Resumes</a>
+          <a href="login.html" data-translate="Login">Login</a>
         </div>
       </div>
       <input id="searchbar" required name="text" type="text" placeholder="search">
       <div id="righttop">
-        <a href="jobs.html">Post</a>
-        <a href="login.html">Account</a>
+        <a href="jobs.html" data-translate="Post">Post</a>
+        <a href="login.html" data-translate="Account">Account</a>
+        <a href="#" data-translate="HowItWorks" onmouseover="showDescription();" onmouseout="hideDescription();">How it works</a>
+    <div id="descriptionBox" class="description-box">Craigslist serves as a platform for classified ads and community notices, allowing users to buy, sell, and trade various goods and services, as well as find job opportunities and housing. Its aim is to provide a free and accessible way for individuals to connect with others in their local communities, facilitating transactions and interactions between buyers and sellers.</div>
       </div>
     </div>
     <div id="mainbody">
-      <p>Welcome to Craigslist!</p>
-      <p>Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.</p>
-      <p>Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.</p>
+      <p data-translate="Welcome">Welcome to Craigslist!</p>
+      <p data-translate="Craigslist">Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.</p>
+      <p data-translate="Founded">Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.</p>
     </div>
     <div id="citybar">
       <div class="citybuttons">
-        <button onclick="changeCity('chc')">CHC</button>
-        <button onclick="changeCity('nch')">NCH</button>
-        <button onclick="changeCity('wcl')">WCL</button>
-        <button onclick="changeCity('sox')">SOX</button>
-        <button onclick="changeCity('nwi')">NWI</button>
-        <button onclick="changeCity('nwc')">NWC</button>
+        <button onclick="changeCity('CHC')">CHC</button>
+        <button onclick="changeCity('NCH')">NCH</button>
+        <button onclick="changeCity('WCL')">WCL</button>
+        <button onclick="changeCity('SOX')">SOX</button>
+        <button onclick="changeCity('NWI')">NWI</button>
+        <button onclick="changeCity('NWC')">NWC</button>
       </div>
-      <div id="cityname"></div>
-      <!-- This will display the city name -->
+        <div id="cityname"></div> <!-- This will display the city name -->
     </div>
-    <div id="bottombar">
-      <p>&copy; 2024 Craigslist | <a href="#">Help</a>
-        <a href="#">Safety</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">About</a>
-        <a href="#">App</a>
-        <a href="#">Sitemap</a>
-      </p>
-    </div>
+      <!-- Language dropdown menu -->
+      <div class="dropdown">
+        <button class="dropbtn">Language</button>
+        <div class="dropdown-content">
+            <a href="#" onclick="changeLanguage('en')">English</a>
+            <a href="#" onclick="changeLanguage('es')">Spanish</a>
+        </div>
+      </div>
+      <div id="bottombar">
+        <p>&copy; 2024 Craigslist | <a href="#" data-translate="Help">Help</a> <a href="#" data-translate="Safety">Safety</a> <a href="#" data-translate="Privacy">Privacy</a> <a href="#" data-translate="Terms">Terms</a> <a href="#" data-translate="About">About</a>
+        <a href="#">App</a> <a href="#" data-translate="Sitemap">Sitemap</a></p>
+    </div> 
     <!-- Event Calendar -->
     <div class="event-calendar">
       <div class="calendar-header">
-        <h2>April 2024</h2>
+        <h2 data-translate="month">April 2024</h2>
       </div>
       <div class="calendar-body">
         <div class="calendar-row">

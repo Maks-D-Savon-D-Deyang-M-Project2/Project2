@@ -611,10 +611,9 @@ body {
   display: block;
 }
 * Positioning the Craigslist photos towards the top */
+/* Positioning the Craigslist photos between the navigation bar and "Welcome to Craigslist" section */
 .craigslist-photos {
-  position: fixed; /* Fixed position to keep it at the bottom */
-  left: 0; /* Align to the left */
-  top: 20px; /* Align to the bottom */
+  position: relative; /* Relative position to adjust based on document flow */
   width: 100%; /* Full width */
   background-color: #fff; /* Background color for better visibility */
   padding: 10px 0; /* Add padding for spacing */

@@ -96,3 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+function showDescription() {
+    document.getElementById('descriptionBox').style.display = 'block';
+  }
+  
+  function hideDescription() {
+    document.getElementById('descriptionBox').style.display = 'none';
+  }

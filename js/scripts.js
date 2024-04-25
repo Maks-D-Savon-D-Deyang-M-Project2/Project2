@@ -1,33 +1,33 @@
 const languageStrings = {
     'en': {
         'Welcome': 'Welcome to Craigslist!',
-        'Browse': 'Browse our listings and find what you\'re looking for.',
-        'Craigslist': 'Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.',
-        'Founded': 'Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.',
-        'Help': 'help',
-        'Sitemap': 'sitemap',
-        'Saftey': 'safety',
-        'Terms': 'terms',
-        'About': 'about',
-        'january': 'January',
-        'february': 'February',
-        'march': 'March',
-        'april': 'April',
-        'may': 'May',
-        'june': 'June',
-        'july': 'July',
-        'august': 'August',
-        'september': 'September',
-        'october': 'October',
-        'november': 'November',
-        'december': 'December',
-        'sun': 'Sun',
-        'mon': 'Mon',
-        'tue': 'Tue',
-        'wed': 'Wed',
-        'thu': 'Thu',
-        'fri': 'Fri',
-        'sat': 'Sat'
+      'Browse': 'Browse our listings and find what you\'re looking for.',
+      'Craigslist': 'Craigslist is a classified advertisements website with sections devoted to jobs, housing, personals, for sale, items wanted, services, community, gigs, résumés, and discussion forums.',
+      'Founded': 'Founded in 1995 by Craig Newmark, Craigslist has grown to become one of the most popular websites for classified listings, with millions of users posting and browsing listings every day.',
+      'Help': 'help',
+      'Sitemap': 'sitemap',
+      'Saftey': 'safety',
+      'Terms': 'terms',
+      'About': 'about',
+      'january': 'January',
+      'february': 'February',
+      'march': 'March',
+      'april': 'April',
+      'may': 'May',
+      'june': 'June',
+      'july': 'July',
+      'august': 'August',
+      'september': 'September',
+      'october': 'October',
+      'november': 'November',
+      'december': 'December',
+      'sun': 'Sun',
+      'mon': 'Mon',
+      'tue': 'Tue',
+      'wed': 'Wed',
+      'thu': 'Thu',
+      'fri': 'Fri',
+      'sat': 'Sat',
     },
     'es': {
         'Welcome': '¡Bienvenido a Craigslist!',
@@ -59,19 +59,33 @@ const languageStrings = {
         'fri': 'Vie',
         'sat': 'Sáb'
     }
-}
-
+    }
 function changeLanguage(language) {
     const elements = document.querySelectorAll('[data-translate]');
     elements.forEach(element => {
         const key = element.getAttribute('data-translate');
-        if(languageStrings[language] && languageStrings[language][key]) {
+        if (languageStrings[language] && languageStrings[language][key]) {
             element.textContent = languageStrings[language][key];
         }
     });
 }
 
-// Add event listeners to language links
+function changeCity(city) {
+    const cityNames = {
+        'CHC': 'Chicago',
+        'NCH': 'New York',
+        'WCL': 'Washington',
+        'SOX': 'Southampton',
+        'NWI': 'Newark',
+        'NWC': 'Newcastle'
+    };
+    if (cityNames[city]) {
+        document.getElementById('cityname').innerText = cityNames[city];
+    } else {
+        document.getElementById('cityname').innerText = city;
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const languageLinks = document.querySelectorAll('.dropdown-content a');
     languageLinks.forEach(link => {
@@ -82,20 +96,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-const cityNames = {
-    'CHC': 'Chicago',
-    'NCH': 'North Chicagoland',
-    'WCL': 'West Chicagoland',
-    'SOX': 'South Chicagoland',
-    'NWI': 'Northwest Indiana',
-    'NWC': 'Northwest Suburbs'
-};
-
-function changeCity(city) {
-    const cityName = cityNames[city];
-    if (cityName) {
-        document.getElementById('cityname').innerText = cityName;
-    } else {
-        document.getElementById('cityname').innerText = "Unknown City";
-    }
-}

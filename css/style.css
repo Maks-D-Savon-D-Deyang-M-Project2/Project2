@@ -610,11 +610,11 @@ body {
 .navigation #righttop a[data-translate="HowItWorks"]:hover + .description-box {
   display: block;
 }
-* Positioning the Craigslist photos at the bottom */
+* Positioning the Craigslist photos towards the top */
 .craigslist-photos {
   position: fixed; /* Fixed position to keep it at the bottom */
   left: 0; /* Align to the left */
-  bottom: 0; /* Align to the bottom */
+  top: 20px; /* Align to the bottom */
   width: 100%; /* Full width */
   background-color: #fff; /* Background color for better visibility */
   padding: 10px 0; /* Add padding for spacing */
@@ -623,6 +623,8 @@ body {
 }
 
 .craigslist-photos img {
-  min-width: 100%; /* Ensure images don't exceed container width */
+  min-width: 100px; /* Ensure images don't exceed container width */
+  max-width: 200px;
   height: auto; /* Maintain aspect ratio */
+  margin: 5px;
 }

@@ -112,3 +112,11 @@ function showDescription() {
         hideDescription();
     }
 });
+function toggleDescription() {
+    const descriptionBox = document.getElementById('descriptionBox');
+    if (descriptionBox.style.display === 'none' || descriptionBox.style.display === '') {
+        showDescription();
+    } else {
+        hideDescription();
+    }
+}

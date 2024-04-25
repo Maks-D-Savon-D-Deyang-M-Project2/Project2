@@ -622,8 +622,8 @@ body {
 }
 
 .craigslist-photos img {
-  min-width: 100px; /* Ensure images don't exceed container width */
-  max-width: 200px;
+  min-width: 200px; /* Ensure images don't exceed container width */
+  max-width: 400px;
   height: auto; /* Maintain aspect ratio */
   margin: 5px;
 }

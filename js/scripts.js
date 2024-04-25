@@ -98,6 +98,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 function showDescription() {
     document.getElementById('descriptionBox').style.display = 'block';
+    // Get the text content based on the current language
+    const language = document.documentElement.lang;
+    const descriptionText = languageStrings[language]['CraigslistDescription'];
+    document.getElementById('descriptionText').textContent = descriptionText;
   }
   
   function hideDescription() {

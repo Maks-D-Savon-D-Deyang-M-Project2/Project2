@@ -592,15 +592,44 @@ body {
   background-color: #916CB2;
   color: purple;
 }
+/* Description box */
 .description-box {
   display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.description-box .close {
   position: absolute;
-  background-color: #fff;
-  color: black;
-  padding: 10px;
-  border: 1px solid #ccc;
-  z-index: 2; /* Ensure the description box appears above other elements */
-  margin-top: 20px; /* Adjust margin as needed */
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Style the button */
+button {
+  padding: 10px 20px;
+  background-color: #551a8b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #916cb2;
 }
 
 .navigation #righttop {
@@ -628,7 +657,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #db10c0;
+  background-color: #d4d2d4;
   min-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px;

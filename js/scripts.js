@@ -82,3 +82,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+const cityNames = {
+    'CHC': 'Chicago',
+    'NCH': 'North Chicagoland',
+    'WCL': 'West Chicagoland',
+    'SOX': 'South Chicagoland',
+    'NWI': 'Northwest Indiana',
+    'NWC': 'Northwest Suburbs'
+};
+
+function changeCity(city) {
+    const cityName = cityNames[city];
+    if (cityName) {
+        document.getElementById('cityname').innerText = cityName;
+    } else {
+        document.getElementById('cityname').innerText = "Unknown City";
+    }
+}

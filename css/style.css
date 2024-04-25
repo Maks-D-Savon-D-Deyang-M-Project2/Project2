@@ -228,6 +228,96 @@ img {
   border: 1px solid #ccc
 }
 
+.cl-thumb {
+  width: 60px;
+  height: 60px
+}
+
+.result-node {
+  width: 80%;
+  
+  margin-top: 50px;
+  margin-left: 12%;
+  border: 1px solid #00f
+}
+
+.supertitle {
+  padding-left: 25%;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  margin-top: 5px
+}
+
+.supertitle,
+.title-blob {
+  text-align: left;
+  font-weight: 700
+}
+
+.title-blob {
+  padding-left: 20%;
+  font-size: 1em;
+  margin-bottom: 15px;
+  word-wrap: break-word
+}
+
+.meta {
+  text-align: left;
+  font-weight: 700;
+  font-size: .8em;
+  display: inline-flex
+}
+
+.meta span {
+  width: 100%
+}
+
+.actions-combo {
+  display: inline-flex;
+  width: 200px;
+  margin-left: 12%;
+  margin-top: 2%
+}
+
+.hideimg {
+  width: 20px;
+  height: 20px
+}
+
+.favorite-button {
+  border: 1px solid beige;
+  border-radius: .2em;
+  color: #ff0
+}
+
+.favorite-button,
+.reply-button {
+  background-color: #ece3ef;
+  padding: 0 .8em;
+  height: 30px
+}
+
+.reply-button {
+  border: 1px solid #b481c9;
+  border-radius: .2em;
+  color: #7b1fa2;
+  margin-right: 2em
+}
+
+.page .leftimg {
+  padding-left: 10%
+}
+
+.page .leftimg,
+.page .rightimg {
+  margin-right: 10px
+}
+
+.gopage input {
+  margin-top: 32%;
+  width: 120px
+}
+
 @media screen and (min-width:768px) {
 
   #formcontainer,
@@ -270,91 +360,38 @@ body {
   font-family: Libre Bodoni, Garamond, Times New Roman, Times
 }
 
+
+
+
+@media (min-width:668px) and (min-width:992px) {
+  
 .result-node {
   width: 80%;
-  height: 100px;
+  height: 250px;
   margin-top: 10px;
   margin-left: 12%;
   border: 1px solid #00f
 }
-
-.cl-thumb {
-  position: absolute;
-  left: 15%;
-  height: 100px
+.rule h2 {
+  display: inline;
+  padding-left: 5px
 }
 
-.supertitle {
-  padding-left: 14%;
-  margin-top: 5px
+.rule a {
+  border: 1px solid #00f;
+  margin-left: 5px
 }
 
-.supertitle,
-.title-blob {
-  text-align: left;
-  font-weight: 700;
-  font-size: 16px;
-  margin-bottom: 5px
+
+
+.page h2 {
+  margin-right: auto
 }
 
-.title-blob {
-  padding-left: 15%
+.page .gopage {
+  margin-right: 10px;
+  padding-right: 30%
 }
-
-.meta {
-  text-align: left;
-  font-weight: 700;
-  font-size: 18px;
-  display: inline-flex
-}
-
-.actions-combo {
-  display: inline-flex;
-  width: 200px;
-  margin-left: 12%;
-  margin-top: -1%
-}
-
-.reply-button {
-  background-color: #ece3ef;
-  border: 1px solid #b481c9;
-  border-radius: .2em;
-  color: #7b1fa2;
-  font-size: 1.2em;
-  height: 2em;
-  line-height: 1.2em;
-  padding: 0 .8em;
-  margin-right: 2em
-}
-
-.actions-combo .reply-button:hover {
-  background-color: #dcd1d3
-}
-
-.favorite-button {
-  color: #ff0
-}
-
-.favorite-button,
-.search-button {
-  background-color: #ece3ef;
-  border: 1px solid beige;
-  border-radius: .2em;
-  font-size: 1.2em;
-  height: 2em;
-  line-height: 1.2em;
-  padding: 0 .8em;
-  margin-right: 2em
-}
-
-.search-button {
-  color: #deb887
-}
-
-.actions-combo .favorite-button:hover {
-  background-color: #dcd1d3
-}
-
 .actions-combo .action {
   transition: width .125s linear;
   display: inline-block;
@@ -389,133 +426,97 @@ body {
 .hideimg {
   float: right
 }
-
-.rule h2 {
-  display: inline;
-  padding-left: 5px
-}
-
-.rule a {
-  border: 1px solid #00f;
-  margin-left: 5px
-}
-
-.page {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50px
-}
-
-.page .leftimg {
-  margin-right: 10px;
-  padding-left: 35%
-}
-
-.page .rightimg {
-  margin-right: 110px
-}
-
-.page h2 {
-  margin-right: auto
-}
-
-.page .gopage {
-  margin-right: 10px;
-  padding-right: 30%
-}
-
-.gopage input {
-  height: 40px
-}
-
-@media (max-width:668px) and (max-width:992px) {
-  .cl-thumb {
-    width: 60px;
-    height: 60px
+  .gopage input {
+    height: 40px
   }
-
-  .result-node {
-    width: 80%;
-    height: 250px;
-    margin-top: 50px;
-    margin-left: 12%;
-    border: 1px solid #00f
+  .page {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px
   }
-
-  .supertitle {
-    padding-left: 25%;
+  
+  .page .leftimg {
+    margin-right: 10px;
+    padding-left: 35%
+  }
+  
+  .page .rightimg {
+    margin-right: 110px
+  }
+  .reply-button {
+    background-color: #ece3ef;
+    border: 1px solid #b481c9;
+    border-radius: .2em;
+    color: #7b1fa2;
     font-size: 1.2em;
-    margin-bottom: 5px;
+    height: 2em;
+    line-height: 1.2em;
+    padding: 0 .8em;
+    margin-right: 2em
+  }
+  
+  .actions-combo .reply-button:hover {
+    background-color: #dcd1d3
+  }
+
+  .favorite-button {
+    color: #ff0
+  }
+  
+  .favorite-button,
+  .search-button {
+    background-color: #ece3ef;
+    border: 1px solid beige;
+    border-radius: .2em;
+    font-size: 1.2em;
+    height: 2em;
+    line-height: 1.2em;
+    padding: 0 .8em;
+    margin-right: 2em
+  }
+  
+  .search-button {
+    color: #deb887
+  }
+  
+  .actions-combo .favorite-button:hover {
+    background-color: #dcd1d3
+  }
+  .cl-thumb {
+    position: absolute;
+    left: 13%;
+    height: 200px;
+    width: 150px;
+  }
+  
+  .supertitle {
+    padding-left: 14%;
     margin-top: 5px
   }
-
+  
   .supertitle,
   .title-blob {
     text-align: left;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px
   }
-
+  
   .title-blob {
-    padding-left: 20%;
-    font-size: 1em;
-    margin-bottom: 15px;
-    word-wrap: break-word
+    padding-left: 15%
   }
-
+  
   .meta {
     text-align: left;
     font-weight: 700;
-    font-size: .8em;
+    font-size: 18px;
     display: inline-flex
   }
-
-  .meta span {
-    width: 100%
-  }
-
+  
   .actions-combo {
     display: inline-flex;
     width: 200px;
     margin-left: 12%;
-    margin-top: 2%
-  }
-
-  .hideimg {
-    width: 20px;
-    height: 20px
-  }
-
-  .favorite-button {
-    border: 1px solid beige;
-    border-radius: .2em;
-    color: #ff0
-  }
-
-  .favorite-button,
-  .reply-button {
-    background-color: #ece3ef;
-    padding: 0 .8em;
-    height: 30px
-  }
-
-  .reply-button {
-    border: 1px solid #b481c9;
-    border-radius: .2em;
-    color: #7b1fa2;
-    margin-right: 2em
-  }
-
-  .page .leftimg {
-    padding-left: 10%
-  }
-
-  .page .leftimg,
-  .page .rightimg {
-    margin-right: 10px
-  }
-
-  .gopage input {
-    margin-top: 32%;
-    width: 120px
+    margin-top: -1%
   }
 }

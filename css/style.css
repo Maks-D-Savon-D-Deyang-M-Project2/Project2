@@ -549,7 +549,8 @@ body {
 .dropdown {
   float: none;
   display: inline-block;
-  margin-left: 0 0 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .dropdown-content {

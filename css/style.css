@@ -596,7 +596,7 @@ body {
   display: none;
   position: absolute;
   background-color: #fff;
-  color: white;
+  color: black;
   padding: 10px;
   border: 1px solid #ccc;
   z-index: 2; /* Ensure the description box appears above other elements */

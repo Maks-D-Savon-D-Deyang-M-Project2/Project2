@@ -592,3 +592,21 @@ body {
   background-color: #916CB2;
   color: purple;
 }
+.description-box {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 2; /* Ensure the description box appears above other elements */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.navigation #righttop {
+  position: relative; /* Ensure proper positioning of the description box */
+}
+
+.navigation #righttop a[data-translate="HowItWorks"]:hover + .description-box {
+  display: block;
+}

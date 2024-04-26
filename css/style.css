@@ -530,7 +530,8 @@ body {
   .supertitle,
   .title-blob {
     text-align: left;
-    font-weight: 700
+    font-weight: 700;
+    margin-left: 30px;
   }
 
   .title-blob {

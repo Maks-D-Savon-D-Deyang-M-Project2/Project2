@@ -79,260 +79,261 @@ summary,
 time,
 mark,
 audio,
+
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 #citybar,
 .navigation {
-    background-color: #551a8b;
-    overflow: hidden
+  background-color: #551a8b;
+  overflow: hidden
 }
 
 #citybar button,
 .navigation a {
-    float: left;
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1em
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em
 }
 
 .navigation input[type=text] {
-    float: left;
-    padding: 6px;
-    border: none;
-    margin-top: 12px;
-    font-size: 1em;
-    max-width: 30%
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 12px;
+  font-size: 1em;
+  max-width: 30%
 }
 
 .dropmenu {
-    float: left;
-    overflow: hidden
+  float: left;
+  overflow: hidden
 }
 
 .dropmenu .dropbutton {
-    font-size: 1.2em;
-    border: none;
-    outline: none;
-    color: #fff;
-    padding: 20px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0
 }
 
 .droplist {
-    display: none;
-    position: absolute;
-    background-color: #dfd7e6;
-    min-width: 15%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-    z-index: 1
+  display: none;
+  position: absolute;
+  background-color: #dfd7e6;
+  min-width: 15%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+  z-index: 1
 }
 
 .droplist a {
-    float: none;
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left
+  float: none;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left
 }
 
 .dropmenu:hover .dropbutton,
 .navigation a:hover {
-    background-color: #916cb2;
-    color: #fff
+  background-color: #916cb2;
+  color: #fff
 }
 
 .droplist a:hover {
-    background-color: #916cb2;
-    color: #000
+  background-color: #916cb2;
+  color: #000
 }
 
 .dropmenu:hover .droplist {
-    display: block
+  display: block
 }
 
 #righttop a {
-    float: right;
-    font-size: 1.2em;
-    padding-bottom: 20px;
-    padding-top: 22px
+  float: right;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  padding-top: 22px
 }
 
 #mainbody {
-    text-align: center;
-    position: relative;
-    margin-top: 5%
+  text-align: center;
+  position: relative;
+  margin-top: 5%
 }
 
 #companylogo {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto
+  max-width: 100%;
+  height: auto;
+  width: auto
 }
 
 .loginimg {
-    flex: 33.33%;
-    padding: 5px
+  flex: 33.33%;
+  padding: 5px
 }
 
 .topimgcontainer {
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-bottom: 5%
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 5%
 }
 
 .welcometext p {
-    font-size: 1.2em;
-    margin-bottom: 1em;
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
 
 #founder {
-    margin-top: 4em;
-    margin-bottom: 4em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 #founder img {
-    position: relative;
-    right: 25%;
-    width: 45%;
-    top: -9em;
+  position: relative;
+  right: 25%;
+  width: 45%;
+  top: -9em;
 }
 
 #founder p {
-    position: relative;
-    width: 45%;
-    left: 52%;
-    top: 10em;
-    font-size: 0.9em;
-    line-height: 1.1em;
-    text-align: left;
+  position: relative;
+  width: 45%;
+  left: 52%;
+  top: 10em;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  text-align: left;
 }
 
 .topimgcontainer img {
-    max-width: 70%;
-    max-height: 70%
+  max-width: 70%;
+  max-height: 70%
 }
 
 #formcontainer,
 #formcontainer2 {
-    background: rgba(223, 215, 230, .4);
-    border: none;
-    border-radius: 30px;
-    position: relative;
-    font-family: Libre Bodoni, Garamond, Times New Roman, serif;
-    width: 80%;
-    left: 8%;
-    margin-top: 1%
+  background: rgba(223, 215, 230, .4);
+  border: none;
+  border-radius: 30px;
+  position: relative;
+  font-family: Libre Bodoni, Garamond, Times New Roman, serif;
+  width: 80%;
+  left: 8%;
+  margin-top: 1%
 }
 
 #login form fieldset,
 #signup form fieldset {
-    position: relative
+  position: relative
 }
 
 #f1head {
-    font-size: 200%;
-    font-weight: 700
+  font-size: 200%;
+  font-weight: 700
 }
 
 #emailcontainer,
 #emailcontainer2,
 #passwordcontainer {
-    position: relative;
-    clear: both;
-    margin-top: 5%;
-    margin-bottom: 5%
+  position: relative;
+  clear: both;
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
 #button2 button,
 #button button {
-    font-size: 1em;
-    line-height: 1.4em;
-    width: 97%;
-    margin-bottom: 5%
+  font-size: 1em;
+  line-height: 1.4em;
+  width: 97%;
+  margin-bottom: 5%
 }
 
 .forminput {
-    box-sizing: border-box;
-    width: 97%;
-    padding: 1%;
-    margin: 1% 1.5%
+  box-sizing: border-box;
+  width: 97%;
+  padding: 1%;
+  margin: 1% 1.5%
 }
 
 #f2head {
-    font-size: 150%;
-    font-weight: 700;
-    width: 75%;
-    margin-left: 13%
+  font-size: 150%;
+  font-weight: 700;
+  width: 75%;
+  margin-left: 13%
 }
 
 #spacer,
 #spacer2 {
-    margin-top: 5%;
-    margin-bottom: 5%
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
 #bottombar {
-    background-color: #b4b8bb;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center
+  background-color: #b4b8bb;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center
 }
 
 .event-calendar {
-    float: right;
-    width: 300px;
-    margin-right: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: Arial, sans-serif
+  float: right;
+  width: 300px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif
 }
 
 #button2 button:hover,
 #button button:hover {
-    background-color: #551a8b;
-    color: #fff
+  background-color: #551a8b;
+  color: #fff
 }
 
 .calendar-header {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center
 }
 
 .calendar-body {
-    padding: 10px
+  padding: 10px
 }
 
 .calendar-row {
-    display: flex
+  display: flex
 }
 
 .calendar-day {
-    flex: 1;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid #ccc
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc
 }
 
 [data-lang="es"] .navigation a,
@@ -340,133 +341,138 @@ img {
 
 /* Dynamic styling */
 [data-translate] {
-    display: none;
-    /* Hide elements with data-translate attribute by default */
+  display: none;
+  /* Hide elements with data-translate attribute by default */
 }
 
 /* Show elements with data-translate when the language changes */
 [lang="en"] [data-translate="en"],
 [lang="es"] [data-translate="es"] {
-    display: block;
+  display: block;
 }
 
 /* Hide elements with data-translate when the language changes */
 [lang="en"] [data-translate="es"],
 [lang="es"] [data-translate="en"] {
-    display: none;
+  display: none;
 }
 
 
 .cl-thumb {
-    width: 10%;
-    left:14%;
-    position: absolute;
+  width: 10%;
+  left: 14%;
+  position: absolute;
 }
 
 .result-node {
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 12%;
-    border: 1px solid #00f
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 12%;
+  border: 1px solid #00f
 }
 
 .supertitle {
-    padding-left: 25%;
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    margin-top: 5px
+  padding-left: 25%;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  margin-top: 5px
 }
 
 .supertitle,
 .title-blob {
-    text-align: left;
-    font-weight: 700
+  text-align: left;
+  font-weight: 700
 }
 
 .title-blob {
-    padding-left: 20%;
-    font-size: 1em;
-    margin-bottom: 15px;
-    word-wrap: break-word
+  padding-left: 20%;
+  font-size: 1em;
+  margin-bottom: 15px;
+  word-wrap: break-word
 }
 
 .meta {
-    text-align: left;
-    font-weight: 700;
-    font-size: .8em;
-    display: inline-flex
+  text-align: left;
+  font-weight: 700;
+  font-size: .8em;
+  display: inline-flex
 }
 
 .meta span {
-    width: 100%;
-    margin-left: 15%;
+  width: 100%;
+  margin-left: 15%;
 }
 
 .actions-combo {
-    display: inline-flex;
-    width: 200px;
-    margin-left: 12%;
-    margin-top: 2%
+  display: inline-flex;
+  width: 200px;
+  margin-left: 12%;
+  margin-top: 2%
 }
 
 .hideimg {
-    width: 20px;
-    height: 20px
+  width: 20px;
+  height: 20px
 }
 
 .favorite-button {
-    border: 1px solid beige;
-    border-radius: .2em;
-    color: #ff0
+  border: 1px solid beige;
+  border-radius: .2em;
+  color: #ff0
 }
 
 .favorite-button,
 .reply-button {
-    background-color: #ece3ef;
-    padding: 0 .8em;
-    height: 30px
+  background-color: #ece3ef;
+  padding: 0 .8em;
+  height: 30px
 }
 
 .reply-button {
-    border: 1px solid #b481c9;
-    border-radius: .2em;
-    color: #7b1fa2;
-    margin-right: 2em
+  border: 1px solid #b481c9;
+  border-radius: .2em;
+  color: #7b1fa2;
+  margin-right: 2em
 }
-.page{
-    display: flex;
+
+.page {
+  display: flex;
 }
+
 .page .leftimg {
-    padding-left: 30%
+  padding-left: 30%
 }
 
 .page .rightimg {
-    margin-right: 10%
+  margin-right: 10%
 }
 
 .gopage input {
-    margin-top: 32%;
-    width: 120px;
+  margin-top: 32%;
+  width: 120px;
 }
+
 /* City buttons */
 .citybuttons {
-      text-align: center; /* Align buttons to the center */
+  text-align: center;
+  /* Align buttons to the center */
 }
 
 .citybuttons button {
-      margin: 0 5px; /* Add some space between buttons */
+  margin: 0 5px;
+  /* Add some space between buttons */
 }
 
 /* Dropdown Language */
 .dropdown {
-    float: none;
-    display: inline-block;
-    margin-left: 0;
-    margin-bottom: 10px;
+  float: none;
+  display: inline-block;
+  margin-left: 0;
+  margin-bottom: 10px;
 
 }
 
-  
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -482,20 +488,22 @@ img {
   display: block;
 
 }
-.separator{
-    flex:1
+
+.separator {
+  flex: 1
 }
 
 @media screen and (min-width:768px) {
 
-    #formcontainer,
-    #formcontainer2 {
-      left: 14%;
-      width: 70%;
-      margin-top: 1%
-    }
+  #formcontainer,
+  #formcontainer2 {
+    left: 14%;
+    width: 70%;
+    margin-top: 1%
+  }
 
-  #button2 button, #button button {
+  #button2 button,
+  #button button {
     width: 20%
   }
 
@@ -505,15 +513,15 @@ img {
     position: relative;
     display: flex
   }
-  
+
   #logintop img {
-    width: 200%;	  
+    width: 200%;
   }
-  
+
   #founder p {
     font-size: 1em;
-    line-height: 1.5em;	
-	top: 15em;
+    line-height: 1.5em;
+    top: 15em;
   }
 
   .topimgcontainer img {
@@ -525,118 +533,116 @@ img {
 
 @media screen and (min-width:1600px) {
 
-    #formcontainer,
-    #formcontainer2 {
-        left: 32%;
-        width: 35%;
-        margin-top: 1%
-    }
-
-    #button2 button,
-    #button button {
-        width: 20%
-    }
-
-    #logintop {
-        width: 50%;
-        height: 20%;
-        position: relative;
-        left: 24.5%;
-        display: flex
-    }
-
-     #founder {
-      width: 50%; 
-	  position: relative;
-	  left: 25%;
+  #formcontainer,
+  #formcontainer2 {
+    left: 32%;
+    width: 35%;
+    margin-top: 1%
   }
-  
+
+  #button2 button,
+  #button button {
+    width: 20%
+  }
+
+  #logintop {
+    width: 50%;
+    height: 20%;
+    position: relative;
+    left: 24.5%;
+    display: flex
+  }
+
+  #founder {
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+
   #founder img {
-    width: 40%;  
+    width: 40%;
   }
-  
+
   #founder p {
     font-size: 1em;
-    line-height: 1.5em;	
-	top: 15em;
+    line-height: 1.5em;
+    top: 15em;
   }
 
-    .topimgcontainer img {
-        max-width: 100%;
-        max-height: 100%
-    }
+  .topimgcontainer img {
+    max-width: 100%;
+    max-height: 100%
+  }
 }
 
 body {
-    font-family: Libre Bodoni, Garamond, Times New Roman, Times
+  font-family: Libre Bodoni, Garamond, Times New Roman, Times
 }
-
-
 
 
 @media (min-width:668px) and (min-width:992px) {
-    .cl-thumb {
-        width: 9%;
-        /* height: 10%; */
-        left:14%;
-        position: absolute;
-    }
-    
+  .cl-thumb {
+    width: 9%;
+    /* height: 10%; */
+    left: 14%;
+    position: absolute;
+  }
 
-    .result-node {
-        width: 80%;
-        height: 40%;
-        margin-top: 10px;
-        margin-left: 12%;
-        border: 1px solid #00f
-    }
 
-    .rule h2 {
-        display: inline;
-        padding-left: 5px
-    }
+  .result-node {
+    width: 80%;
+    height: 40%;
+    margin-top: 10px;
+    margin-left: 12%;
+    border: 1px solid #00f
+  }
 
-    .rule a {
-        border: 1px solid #00f;
-        margin-left: 5px
-    }
+  .rule h2 {
+    display: inline;
+    padding-left: 5px
+  }
 
-.footer{
+  .rule a {
+    border: 1px solid #00f;
+    margin-left: 5px
+  }
+
+  .footer {
     height: 100px;
-}
+  }
 
-    .page h2 {
-        margin-right: auto;
-        margin-top: 1%;
-    }
+  .page h2 {
+    margin-right: auto;
+    margin-top: 1%;
+  }
 
-    .page .gopage {
-        margin-right: 10px;
-        padding-right: 30%;
-        margin-top: -2.5%;
-    }
+  .page .gopage {
+    margin-right: 10px;
+    padding-right: 30%;
+    margin-top: -2.5%;
+  }
 
-    .actions-combo .action {
-        transition: width .125s linear;
-        display: inline-block;
-        text-align: center;
-        position: relative;
-        top: .78em;
-        width: 69px;
-        overflow: hidden
-    }
+  .actions-combo .action {
+    transition: width .125s linear;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: .78em;
+    width: 69px;
+    overflow: hidden
+  }
 
-    .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-    
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+
   /* Language dropdown button */
   .dropbtn {
-        font-size: 1.2em;
+    font-size: 1.2em;
     border: none;
     outline: none;
     color: purple;
@@ -644,12 +650,13 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    }
+  }
 
   .dropbtn:hover {
     background-color: #916CB2;
     color: purple;
   }
+
   /* Style the button */
   button {
     padding: 10px 20px;
@@ -660,31 +667,41 @@ body {
     cursor: pointer;
     margin-top: 20px;
   }
-  
+
   button:hover {
     background-color: #916cb2;
-    }
+  }
 
   .navigation #righttop {
-    position: relative; /* Ensure proper positioning of the description box */
+    position: relative;
+    /* Ensure proper positioning of the description box */
   }
 
-  .navigation #righttop a[data-translate="HowItWorks"]:hover + .description-box {
+  .navigation #righttop a[data-translate="HowItWorks"]:hover+.description-box {
     display: block;
   }
+
   .craigslist-photos {
-    position: relative; /* Relative position to adjust based on document flow */
-    width: 100%; /* Full width */
-    background-color: #fff; /* Background color for better visibility */
-    padding: 10px 0; /* Add padding for spacing */
-    text-align: center; /* Center align the images */
-    z-index: 9999; /* Ensure the photos appear above other content */
+    position: relative;
+    /* Relative position to adjust based on document flow */
+    width: 100%;
+    /* Full width */
+    background-color: #fff;
+    /* Background color for better visibility */
+    padding: 10px 0;
+    /* Add padding for spacing */
+    text-align: center;
+    /* Center align the images */
+    z-index: 9999;
+    /* Ensure the photos appear above other content */
   }
 
   .craigslist-photos img {
-    min-width: 200px; /* Ensure images don't exceed container width */
+    min-width: 200px;
+    /* Ensure images don't exceed container width */
     max-width: 400px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
+    /* Maintain aspect ratio */
     margin: 5px;
-}
+  }
 }

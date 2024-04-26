@@ -118,6 +118,33 @@ img {
   margin-bottom: 5%
 }
 
+.welcometext p { 
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+#founder { 
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+#founder img {
+  position: relative;
+  right: 25%;
+  width: 45%;
+  top: -9em;
+}
+
+#founder p {
+  position: relative;
+  width: 45%;
+  left: 52%;
+  top: 10em;
+  font-size: 0.9em;
+  line-height: 1.1em;
+  text-align: left;
+}
+
 .topimgcontainer img {
   max-width: 70%;
   max-height: 70%
@@ -254,6 +281,23 @@ img {
     width: 70%;
     margin-top: 1%
   }
+
+  #logintop {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    display: flex
+  }
+  
+  #logintop img {
+    width: 200%;	  
+  }
+  
+  #founder p {
+    font-size: 1em;
+    line-height: 1.5em;	
+	top: 15em;
+  }
 }
 
 @media screen and (min-width:1600px) {
@@ -276,6 +320,22 @@ img {
     position: relative;
     left: 24.5%;
     display: flex
+  }
+
+   #founder {
+    width: 50%; 
+	  position: relative;
+	  left: 25%;
+  }
+  
+  #founder img {
+    width: 40%;  
+  }
+  
+  #founder p {
+    font-size: 1em;
+    line-height: 1.5em;	
+	  top: 15em;
   }
 
   .topimgcontainer img {

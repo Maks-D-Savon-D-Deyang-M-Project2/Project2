@@ -105,6 +105,9 @@ document.addEventListener('DOMContentLoaded', function() {
             changeLanguage(language);
         });
     });
+
+});
+
 });
 function showDescription() {
     document.getElementById('descriptionBox').style.display = 'block';
@@ -113,3 +116,4 @@ function showDescription() {
   function hideDescription() {
     document.getElementById('descriptionBox').style.display = 'none';
   }
+

@@ -508,6 +508,7 @@ body {
 
 @media (max-width:668px) and (max-width:992px) {
   .cl-thumb {
+    margin-top: 1%;
     width: 60px;
     height: 60px
   }

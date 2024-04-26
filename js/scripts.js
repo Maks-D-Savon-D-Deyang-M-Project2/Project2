@@ -1,3 +1,13 @@
+function login() {
+  document.getElementById("login");
+  alert("Successfully logged in.");
+}
+
+function signup() {
+  document.getElementById("signup");
+  alert("Account Created. Thank you!");
+}
+
 const languageStrings = {
     'en': {
         'Welcome': 'Welcome to Craigslist!',
@@ -95,4 +105,15 @@ document.addEventListener('DOMContentLoaded', function() {
             changeLanguage(language);
         });
     });
+
 });
+
+});
+function showDescription() {
+    document.getElementById('descriptionBox').style.display = 'block';
+  }
+  
+  function hideDescription() {
+    document.getElementById('descriptionBox').style.display = 'none';
+  }
+

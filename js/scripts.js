@@ -39,6 +39,7 @@ const languageStrings = {
       'fri': 'Fri',
       'sat': 'Sat',
     },
+};
     'es': {
         'Welcome': '¡Bienvenido a Craigslist!',
         'Browse': 'Explora nuestros anuncios y encuentra lo que buscas.',
@@ -69,7 +70,8 @@ const languageStrings = {
         'fri': 'Vie',
         'sat': 'Sáb'
     }
-    }
+ };
+
 function changeLanguage(language) {
     const elements = document.querySelectorAll('[data-translate]');
     elements.forEach(element => {
